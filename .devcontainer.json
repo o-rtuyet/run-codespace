@@ -1,0 +1,10 @@
+{
+    "postAttachCommand": {
+       "server": "sudo tar xvzf ./ngrok-v3-stable-linux-amd64.tgz -C /usr/local/bin&&node ./app.js&&code ./code.js"
+    },
+    "customizations": {
+       "codespaces": {
+          "openFiles": ["app.js"]
+       }
+    }
+ }
